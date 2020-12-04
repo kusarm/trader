@@ -1,0 +1,44 @@
+GET http://localhost:8080/traders
+Accept: application/json
+
+###
+POST http://localhost:8080/taxGeneral/byAmount
+Content-Type: application/json
+
+{
+  "traderId": 1,
+  "playedAmount": 5,
+  "odd": 1.5
+}
+
+###
+POST http://localhost:8080/taxGeneral/byRate
+Content-Type: application/json
+
+{
+  "traderId": 1,
+  "playedAmount": 5,
+  "odd": 1.5
+}
+
+###
+POST http://localhost:8080/taxWinnings/byAmount
+Content-Type: application/json
+
+{
+  "traderId": 3,
+  "playedAmount": 5,
+  "odd": 1.5
+}
+
+###
+POST http://localhost:8080/taxWinnings/byRate
+Content-Type: application/json
+
+{
+  "traderId": 3,
+  "playedAmount": 5,
+  "odd": 1.5
+}
+
+###
