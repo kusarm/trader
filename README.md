@@ -49,10 +49,9 @@ Each trader has their own taxRate and taxAmount displayed in response body. For 
 ```
 
 ## Usage
+In root directory you'll find a file named ```requests.http``` which test running endpoints. After running command in terminal, check endpoints using postman or similar software.
 ### Run following commands
 ```shell
-docker-compose up -d
-
-./gradlew bootRun --args="min"
+./gradlew bootRun
 ```
 
